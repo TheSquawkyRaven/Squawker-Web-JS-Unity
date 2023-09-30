@@ -1,0 +1,32 @@
+html, body{
+    width : 200px;
+    height : 230px;
+    text-align : center;
+    color : white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color : deepskyblue;
+}
+.button{
+    background-color : black;
+    border-width : 8px;
+    border-radius : 8px;
+    transition-duration: 0.2s;
+}
+.button:hover {
+    border-width : 12px;
+    border-radius: 12px;
+}
+#startButton{
+    color : greenyellow;
+}
+#stopButton{
+    color : red;
+}
+#statusText{
+    color : white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -60%);
+}

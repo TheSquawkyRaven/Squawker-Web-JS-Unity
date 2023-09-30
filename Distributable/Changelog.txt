@@ -1,0 +1,30 @@
+Changelog
+Build 2
+- Fixed server's error
+- Removed 'filewriter' environment
+- Added /env, same as /setenvironment
+- Added /adminmode, same as /setadminmode
+- Added /admin, same as /setadmin
+- Changed name to ‘Squawker’
+
+Build 3 - Version 2!
+- Added announcement environment
+- Added functionality to read the present peoples in google meet
+- Added popups. All commands will now show a popup
+- Added randomization among people present, number and custom list
+- Added exclusions in randomization among people present
+- Fully removed all the files for the ‘filewriter’ environment
+- Lift off from NodeJS, NodeJS is no longer required to be installed in the system. C# itself in the Squawker program will handle the server now
+- Tons of commands changes and additions to already existing ones so the user have more options to execute commands
+
+Build 4
+- Added custom persistent popup for all randomizations
+- Added function to close the randomization popup
+- Added popup to indicate connection connected to client
+- Added commands to show inclusions and exclusions
+- Fixed inclusion/exclusion bug
+
+Build 5 (CURRENT)
+- Fixed timing issues that corrupts the text
+- Added several language support for the receiving text
+- Added emoji support
